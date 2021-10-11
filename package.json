@@ -38,7 +38,7 @@
         "lint:fix": "nr lint -- --fix",
         "play": "npm -C playground run dev",
         "prepublishOnly": "nr build",
-        "release": "bumpp --commit --push --tag && npm publish",
+        "release": "bumpp --commit --push --tag && pnpm publish",
         "test": "jest",
         "test:update": "jest -u"
     },
